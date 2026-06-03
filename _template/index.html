@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ATHLETE NAME] | [SPORT] CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Analytics: Replace G-XXXXXXXXXX with client's GA measurement ID, or remove this block if not using Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">[ATHLETE NAME]</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#career">Career History</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- IMAGE: Replace hero-photo.jpg with client's action/hero photo -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="hero-photo.jpg" alt="[ATHLETE NAME]">
+            </div>
+            <div class="hero-text">
+                <h1>[ATHLETE NAME]</h1>
+                <p class="hero-position"><span>[POSITION]</span></p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <!-- IMAGE: Replace head.jpg with client's headshot/profile photo -->
+                <div class="about-image">
+                    <img src="head.jpg" alt="[ATHLETE NAME]" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <strong>Position:</strong>
+                            <span>[POSITION]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Height:</strong>
+                            <span>[HEIGHT, e.g. 5'7"]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Weight:</strong>
+                            <span>[WEIGHT, e.g. 130 lbs]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Dominant Foot:</strong>
+                            <span>[FOOT, e.g. Right / Left / Both]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Date of Birth:</strong>
+                            <span>[DOB, e.g. MM/DD/YYYY]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>Citizenship:</strong>
+                            <span>[CITIZENSHIP, e.g. United States]</span>
+                        </div>
+                        <!-- OPTIONAL: Remove or replace the two stats below if client doesn't have this data -->
+                        <div class="detail-item">
+                            <strong>Game Top Speed:</strong>
+                            <span>[SPEED, e.g. 28.5 km/h]</span>
+                        </div>
+                        <div class="detail-item">
+                            <strong>VO2 Max (Fitness):</strong>
+                            <span>[VO2 MAX, e.g. 51 mL/kg/min]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <!-- VIDEO: Replace each YouTube embed URL with the client's highlight video URLs -->
+    <!-- To get the embed URL: on YouTube, click Share > Embed, copy the src value -->
+    <!-- To clip a specific part of a video, add ?start=SECONDS&end=SECONDS to the URL -->
+    <section id="highlights" class="section highlights">
+        <div class="container">
+            <h2 class="section-title">Video Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="video-container">
+                        <iframe src="[YOUTUBE EMBED URL 1]" title="[VIDEO TITLE 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>[VIDEO TITLE 1]</h4>
+                </div>
+                <div class="highlight-card">
+                    <div class="video-container">
+                        <iframe src="[YOUTUBE EMBED URL 2]" title="[VIDEO TITLE 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>[VIDEO TITLE 2]</h4>
+                </div>
+                <div class="highlight-card">
+                    <div class="video-container">
+                        <iframe src="[YOUTUBE EMBED URL 3]" title="[VIDEO TITLE 3]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>[VIDEO TITLE 3]</h4>
+                </div>
+                <!-- Add or remove highlight-card blocks as needed -->
+            </div>
+            <div class="full-video-link">
+                <!-- LINK: Replace with the full YouTube link to the client's highlight reel -->
+                <a href="[FULL YOUTUBE VIDEO URL]" target="_blank" class="btn btn-primary">Watch Full Highlight Reel</a>
+            </div>
+
+            <!-- OPTIONAL: Remove this entire block if client has no professional/training film -->
+            <h3 class="career-category-title" style="margin-top: 60px;">Recent Professional/Training Film</h3>
+            <div class="pro-film-grid">
+                <div class="highlight-card">
+                    <div class="video-container">
+                        <iframe src="[PRO FILM EMBED URL 1]" title="[PRO FILM TITLE 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>[PRO FILM TITLE 1]</h4>
+                </div>
+                <div class="highlight-card">
+                    <div class="video-container">
+                        <iframe src="[PRO FILM EMBED URL 2]" title="[PRO FILM TITLE 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h4>[PRO FILM TITLE 2]</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career History Section -->
+    <!-- Copy/paste career-item blocks as needed. Remove any category sections that don't apply. -->
+    <section id="career" class="section career">
+        <div class="container">
+            <h2 class="section-title">Career History</h2>
+
+            <!-- COLLEGIATE EXPERIENCE: Remove this block if client has no college experience -->
+            <div class="career-category">
+                <h3 class="career-category-title">Collegiate Experience</h3>
+
+                <div class="career-item">
+                    <div class="career-content">
+                        <div class="career-header">
+                            <div>
+                                <h4>[UNIVERSITY NAME] – [DIVISION, e.g. NCAA Division I]</h4>
+                                <p class="career-role">[TEAM NAME] | [POSITION]</p>
+                            </div>
+                            <span class="career-year">[YEARS, e.g. 2021–2025]</span>
+                        </div>
+                        <ul class="career-highlights">
+                            <li>[ACHIEVEMENT 1]</li>
+                            <li>[ACHIEVEMENT 2]</li>
+                            <li>[ACHIEVEMENT 3]</li>
+                            <!-- Add or remove list items as needed -->
+                        </ul>
+                    </div>
+                    <!-- IMAGE: Replace with the client's college team photo -->
+                    <img src="college.jpg" alt="[ATHLETE NAME] - [UNIVERSITY NAME]" class="career-photo">
+                </div>
+
+                <!-- Add another career-item block here if client has multiple college stops -->
+            </div>
+
+            <!-- SEMI-PROFESSIONAL EXPERIENCE: Remove if not applicable -->
+            <div class="career-category">
+                <h3 class="career-category-title">Semi-Professional Experience</h3>
+
+                <div class="career-item">
+                    <div class="career-content">
+                        <div class="career-header">
+                            <div>
+                                <h4>[CLUB/TEAM NAME] – [LEAGUE]</h4>
+                                <p class="career-role">[LEAGUE FULL NAME]</p>
+                            </div>
+                            <span class="career-year">[YEARS]</span>
+                        </div>
+                        <ul class="career-highlights">
+                            <li>[ACHIEVEMENT 1]</li>
+                            <li>[ACHIEVEMENT 2]</li>
+                        </ul>
+                    </div>
+                    <!-- IMAGE: Replace with club/team photo -->
+                    <img src="pro.jpg" alt="[ATHLETE NAME] - [TEAM NAME]" class="career-photo">
+                </div>
+            </div>
+
+            <!-- ACADEMY EXPERIENCE: Remove if not applicable -->
+            <div class="career-category">
+                <h3 class="career-category-title">Academy Experience</h3>
+
+                <div class="career-item">
+                    <div class="career-content">
+                        <div class="career-header">
+                            <div>
+                                <h4>[ACADEMY/CLUB NAME]</h4>
+                                <p class="career-role">[LEAGUE] | [ROLE, e.g. Team Captain]</p>
+                            </div>
+                            <span class="career-year">[YEARS]</span>
+                        </div>
+                        <ul class="career-highlights">
+                            <li>[ACHIEVEMENT 1]</li>
+                            <li>[ACHIEVEMENT 2]</li>
+                        </ul>
+                    </div>
+                    <!-- IMAGE: Replace with academy/youth photo -->
+                    <img src="academy.jpg" alt="[ATHLETE NAME] - [ACADEMY NAME]" class="career-photo">
+                </div>
+            </div>
+
+            <!-- HIGH SCHOOL: Remove if not applicable -->
+            <div class="career-category">
+                <h3 class="career-category-title">High School</h3>
+
+                <div class="career-item">
+                    <div class="career-content">
+                        <div class="career-header">
+                            <div>
+                                <h4>[HIGH SCHOOL NAME]</h4>
+                                <p class="career-role">[ROLE, e.g. Varsity Team Captain]</p>
+                            </div>
+                            <span class="career-year">[GRADUATION YEAR]</span>
+                        </div>
+                        <ul class="career-highlights">
+                            <li>[ACHIEVEMENT 1]</li>
+                            <li>[ACHIEVEMENT 2]</li>
+                        </ul>
+                    </div>
+                    <!-- IMAGE: Replace with high school photo -->
+                    <img src="highschool.jpg" alt="[ATHLETE NAME] - [HIGH SCHOOL NAME]" class="career-photo">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- Replace each stat-number and stat-label with the client's real stats -->
+    <!-- Remove or add stat-card blocks as needed -->
+    <section id="stats" class="section stats">
+        <div class="container">
+            <h2 class="section-title">Player Statistics</h2>
+            <p class="stats-subtitle">[STAT DESCRIPTION, e.g. Averaged Stats from 2024–2025 Seasons]</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL, e.g. StatsBomb Percentile]</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL]</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL]</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL]</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL]</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">[VALUE]</div>
+                    <div class="stat-label">[STAT NAME]</div>
+                    <div class="stat-detail">[STAT DETAIL]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p><a href="mailto:[CLIENT EMAIL]">[CLIENT EMAIL]</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p><a href="tel:[CLIENT PHONE]">[CLIENT PHONE]</a></p>
+                        </div>
+                    </div>
+                    <!-- OPTIONAL: Remove agent block if client has no agent -->
+                    <div class="contact-item">
+                        <span class="contact-icon">👤</span>
+                        <div>
+                            <strong>Agent</strong>
+                            <p>[AGENT NAME]</p>
+                            <p><a href="mailto:[AGENT EMAIL]">[AGENT EMAIL]</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; [YEAR] [ATHLETE NAME]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
