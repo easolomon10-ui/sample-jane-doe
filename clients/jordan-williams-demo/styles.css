@@ -1,16 +1,16 @@
 /* CSS Variables */
 :root {
-    --primary-color: #7f1d1d;
-    --primary-dark: #450a0a;
-    --secondary-color: #b91c1c;
+    --primary-color: #1e3a5f;
+    --primary-dark: #0f2240;
+    --secondary-color: #2563eb;
     --accent-color: #dc2626;
     --text-color: #1e293b;
     --text-light: #64748b;
     --background: #ffffff;
-    --background-alt: #fef2f2;
-    --border-color: #fecaca;
-    --shadow: 0 4px 6px rgba(127, 29, 29, 0.1);
-    --shadow-lg: 0 10px 25px rgba(127, 29, 29, 0.18);
+    --background-alt: #eff6ff;
+    --border-color: #bfdbfe;
+    --shadow: 0 4px 6px rgba(30, 58, 95, 0.1);
+    --shadow-lg: 0 10px 25px rgba(30, 58, 95, 0.18);
     --transition: all 0.3s ease;
 }
 
@@ -136,7 +136,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #450a0a 0%, #7f1d1d 55%, #b91c1c 100%);
+    background: linear-gradient(135deg, #0f2240 0%, #1e3a5f 55%, #2563eb 100%);
     color: white;
     padding: 0 20px;
     position: relative;
@@ -150,7 +150,9 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><circle cx="15" cy="15" r="1.5" fill="rgba(255,255,255,0.07)"/></svg>') center/30px repeat;
+    background-image:
+        repeating-linear-gradient(45deg,  rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 32px),
+        repeating-linear-gradient(-45deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 32px);
     pointer-events: none;
 }
 
@@ -206,7 +208,7 @@ img {
 }
 
 .hero-position span {
-    color: #fca5a5;
+    color: #93c5fd;
     font-weight: 800;
 }
 
@@ -233,7 +235,7 @@ img {
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 1px;
-    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.4);
+    box-shadow: 0 4px 14px rgba(30, 58, 95, 0.35);
 }
 
 /* Buttons */
@@ -253,13 +255,13 @@ img {
 .btn-primary {
     background: var(--accent-color);
     color: white;
-    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.4);
+    box-shadow: 0 4px 14px rgba(30, 58, 95, 0.35);
 }
 
 .btn-primary:hover {
-    background: #b91c1c;
+    background: #1d4ed8;
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(185, 28, 28, 0.5);
+    box-shadow: 0 8px 20px rgba(30, 58, 95, 0.45);
 }
 
 /* Sections */
@@ -739,7 +741,7 @@ img {
 /* Academic detail highlight */
 .detail-item.academic-highlight {
     border-left-color: var(--accent-color);
-    background: #fff5f5;
+    background: #dbeafe;
 }
 
 .detail-item.academic-highlight strong {
@@ -811,7 +813,7 @@ img {
 }
 
 .schedule-table tr:hover {
-    background: #fee2e2;
+    background: #eff6ff;
 }
 
 .result-win {
