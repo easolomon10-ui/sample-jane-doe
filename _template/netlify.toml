@@ -1,5 +1,5 @@
 [build]
-  publish = "clients/jordan-williams-demo"
+  publish = "."
 
 [[headers]]
   for = "/*.jpg"
