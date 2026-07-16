@@ -379,10 +379,10 @@ img { max-width: 100%; height: auto; display: block; }
   display: grid;
   grid-template-columns: 290px 1fr;
   gap: 72px;
-  align-items: center;
+  align-items: start;
 }
 
-.about-image { position: relative; }
+.about-image { position: relative; margin-top: 56px; }
 
 .profile-photo {
   width: 100%;
