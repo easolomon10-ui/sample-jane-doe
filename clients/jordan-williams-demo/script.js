@@ -32,7 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
     a.addEventListener('click', e => {
       e.preventDefault();
       const target = document.querySelector(a.getAttribute('href'));
-      if (target) window.scrollTo({ top: target.offsetTop - navbar.offsetHeight, behavior: 'smooth' });
+      if (target) {
+        const heading = target.querySelector('h2, h3, .section-title') || target;
+        const top = heading.getBoundingClientRect().top + window.scrollY - navbar.offsetHeight - 16;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
     });
   });
 
