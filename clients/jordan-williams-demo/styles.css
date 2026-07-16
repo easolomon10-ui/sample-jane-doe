@@ -382,7 +382,7 @@ img { max-width: 100%; height: auto; display: block; }
   align-items: start;
 }
 
-.about-image { position: relative; margin-top: 56px; }
+.about-image { position: relative; margin-top: 48px !important; }
 
 .profile-photo {
   width: 100%;

@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const target = document.querySelector(a.getAttribute('href'));
       if (!target) return;
       const heading = target.querySelector('h2, h3, .section-title') || target;
-      heading.style.scrollMarginTop = (navbar.offsetHeight + 16) + 'px';
-      heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const top = heading.getBoundingClientRect().top + window.scrollY - 88;
+      window.scrollTo({ top, behavior: 'smooth' });
     });
   });
 
